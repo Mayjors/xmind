@@ -73,6 +73,20 @@ class TaoBao(object):
         except NoSuchElementException:
             return ''
 
+    def clear_cart(self):
+        cart = self.browser.find_element_by_xpath('//*[@id="J_MiniCart"]')
+        if cart.is_displayed():
+            cart.click()
+        select = self.browser.find_element_by_xpath('//*[@id="J_SelectAll1"]/div/label')
+        if select.is_displayed():
+            select.click()
+        time.sleep(0.5)
+        go = self.browser.find_element_by_xpath('//*[@id="J_Go"]')
+        if go.is_displayed():
+            go.click()
+        submit = self.browser.find_element_by_xpath('//*[@id="submitOrderPC_1"]/div/a[2]')
+        if submit.is_displayed():
+            submit.click()
 
 if __name__ == '__main__':
     # 填入自己的用户名，密码
@@ -80,3 +94,4 @@ if __name__ == '__main__':
     password = 'EU@yj219314'
     tb = TaoBao()
     tb.login(username, password)
+    tb.clear_cart()
