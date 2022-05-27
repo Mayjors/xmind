@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T02:09:21.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="XLjrpPToUfN6BRCrntTO" version="18.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:30:39.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="A5zsU4FXR0ucoNdOblCn" version="18.0.8" type="github" pages="2">
   <diagram id="yDOdovMrDqm0SfMJ2Z7a" name="lhs 目录设计">
     <mxGraphModel dx="1298" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2068,7 +2068,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-147" value="Find Dg Group&lt;br&gt;By Lineid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-151" value="Y" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-148" target="55tOYgN9ENj1BhJTGy84-150">
           <mxGeometry relative="1" as="geometry" />
@@ -2082,13 +2082,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-148" value="Dg Group&lt;br&gt;exist" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="149" y="240" width="107" height="90" as="geometry" />
+          <mxGeometry x="376.5" y="220" width="107" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-159" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-150" target="55tOYgN9ENj1BhJTGy84-158">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-150" value="Find Dg Conf By dgGroupId&lt;br&gt;(resource_id field)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-160" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-152" target="55tOYgN9ENj1BhJTGy84-158">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-152" value="Find Dg Conf By&lt;br&gt;lineId&lt;br&gt;(resource_id field)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329.5" y="255" width="120" height="60" as="geometry" />
+          <mxGeometry x="483.5" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-155" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.122;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.517;exitY=0.397;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-134" target="55tOYgN9ENj1BhJTGy84-105">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2103,6 +2109,36 @@
         </mxCell>
         <mxCell id="55tOYgN9ENj1BhJTGy84-156" value="&lt;span style=&quot;text-align: left;&quot;&gt;通过resource_id&lt;br&gt;进行分表&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="1268.5" y="-710" width="103" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-162" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-158" target="55tOYgN9ENj1BhJTGy84-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-169" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="55tOYgN9ENj1BhJTGy84-162">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-165" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-158" target="55tOYgN9ENj1BhJTGy84-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-166" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="55tOYgN9ENj1BhJTGy84-165">
+          <mxGeometry x="0.0088" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-158" value="Dg Conf&lt;br&gt;exist" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376.5" y="440" width="107" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-161" value="Dg Check Logic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-168" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55tOYgN9ENj1BhJTGy84-164" target="55tOYgN9ENj1BhJTGy84-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55tOYgN9ENj1BhJTGy84-164" value="Find Dg Conf By lineid&lt;br&gt;(line_id field)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="455" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
