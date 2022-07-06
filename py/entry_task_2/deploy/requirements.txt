@@ -74,7 +74,7 @@ jsonschema==3.2.0
 kafka-python==0.9.5
 kazoo==2.7.0
 kombu==3.0.37
-lxml==4.5.0
+lxml==4.9.1
 MarkupSafe==1.1.1
 mock==3.0.5
 more-itertools==5.0.0
