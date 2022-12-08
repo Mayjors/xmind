@@ -16,7 +16,7 @@ CacheControl==0.12.6
 cachetools==3.1.1
 cat-client==2.5.19
 celery==3.1.24
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.14.0
 chardet==3.0.4
 click==7.1.1
