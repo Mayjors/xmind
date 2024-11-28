@@ -106,7 +106,7 @@ pycurl==7.43.0.5
 pyffx==0.2.0
 pygeoip==0.3.2
 Pygments==2.5.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymemcache==3.0.0
 PyMySQL==0.9.3
 PyMySQL-logistics==0.1.1
